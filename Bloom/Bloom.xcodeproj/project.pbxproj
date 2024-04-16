@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940897B92BC80E0900E014B4 /* BloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940897B82BC80E0900E014B4 /* BloomApp.swift */; };
+		940897BD2BC80E0C00E014B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940897BC2BC80E0C00E014B4 /* Assets.xcassets */; };
+		940897C02BC80E0C00E014B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940897BF2BC80E0C00E014B4 /* Preview Assets.xcassets */; };
+		940CE1AF2BCD606F0059505A /* SignUpScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CE1AE2BCD606F0059505A /* SignUpScreenView.swift */; };
+		940CE1B12BCD90140059505A /* PlusScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CE1B02BCD90140059505A /* PlusScreenView.swift */; };
+		94192B822BC82862003F0E27 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94192B7E2BC82862003F0E27 /* SignInScreenView.swift */; };
+		946667812BCDB113000F4DEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946667802BCDB113000F4DEA /* ContentView.swift */; };
+		94B642712BCA807700EF4EE4 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B642702BCA807600EF4EE4 /* WelcomeScreenView.swift */; };
+		94B642732BCA81C000EF4EE4 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B642722BCA81C000EF4EE4 /* NotesView.swift */; };
+		94B642752BCA823700EF4EE4 /* note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B642742BCA823700EF4EE4 /* note.swift */; };
+		94B642772BCA825E00EF4EE4 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B642762BCA825E00EF4EE4 /* user.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940897B52BC80E0900E014B4 /* Bloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940897B82BC80E0900E014B4 /* BloomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomApp.swift; sourceTree = "<group>"; };
+		940897BC2BC80E0C00E014B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940897BF2BC80E0C00E014B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		940CE1AE2BCD606F0059505A /* SignUpScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpScreenView.swift; path = ../SignUpScreenView.swift; sourceTree = "<group>"; };
+		940CE1B02BCD90140059505A /* PlusScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlusScreenView.swift; path = ../PlusScreenView.swift; sourceTree = "<group>"; };
+		94192B7E2BC82862003F0E27 /* SignInScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		946667802BCDB113000F4DEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94B642702BCA807600EF4EE4 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		94B642722BCA81C000EF4EE4 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		94B642742BCA823700EF4EE4 /* note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = note.swift; sourceTree = "<group>"; };
+		94B642762BCA825E00EF4EE4 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940897B22BC80E0900E014B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940897AC2BC80E0900E014B4 = {
+			isa = PBXGroup;
+			children = (
+				940897B72BC80E0900E014B4 /* Bloom */,
+				940897B62BC80E0900E014B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940897B62BC80E0900E014B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940897B52BC80E0900E014B4 /* Bloom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940897B72BC80E0900E014B4 /* Bloom */ = {
+			isa = PBXGroup;
+			children = (
+				940897B82BC80E0900E014B4 /* BloomApp.swift */,
+				946667802BCDB113000F4DEA /* ContentView.swift */,
+				94B642702BCA807600EF4EE4 /* WelcomeScreenView.swift */,
+				94192B7E2BC82862003F0E27 /* SignInScreenView.swift */,
+				940CE1AE2BCD606F0059505A /* SignUpScreenView.swift */,
+				94B642722BCA81C000EF4EE4 /* NotesView.swift */,
+				940CE1B02BCD90140059505A /* PlusScreenView.swift */,
+				94B642742BCA823700EF4EE4 /* note.swift */,
+				94B642762BCA825E00EF4EE4 /* user.swift */,
+				940897BC2BC80E0C00E014B4 /* Assets.xcassets */,
+				940897BE2BC80E0C00E014B4 /* Preview Content */,
+			);
+			path = Bloom;
+			sourceTree = "<group>";
+		};
+		940897BE2BC80E0C00E014B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				940897BF2BC80E0C00E014B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940897B42BC80E0900E014B4 /* Bloom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940897C32BC80E0C00E014B4 /* Build configuration list for PBXNativeTarget "Bloom" */;
+			buildPhases = (
+				940897B12BC80E0900E014B4 /* Sources */,
+				940897B22BC80E0900E014B4 /* Frameworks */,
+				940897B32BC80E0900E014B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bloom;
+			productName = Bloom;
+			productReference = 940897B52BC80E0900E014B4 /* Bloom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940897AD2BC80E0900E014B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					940897B42BC80E0900E014B4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 940897B02BC80E0900E014B4 /* Build configuration list for PBXProject "Bloom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940897AC2BC80E0900E014B4;
+			productRefGroup = 940897B62BC80E0900E014B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940897B42BC80E0900E014B4 /* Bloom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940897B32BC80E0900E014B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940897C02BC80E0C00E014B4 /* Preview Assets.xcassets in Resources */,
+				940897BD2BC80E0C00E014B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940897B12BC80E0900E014B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B642752BCA823700EF4EE4 /* note.swift in Sources */,
+				940CE1AF2BCD606F0059505A /* SignUpScreenView.swift in Sources */,
+				94B642712BCA807700EF4EE4 /* WelcomeScreenView.swift in Sources */,
+				94B642732BCA81C000EF4EE4 /* NotesView.swift in Sources */,
+				940CE1B12BCD90140059505A /* PlusScreenView.swift in Sources */,
+				946667812BCDB113000F4DEA /* ContentView.swift in Sources */,
+				94B642772BCA825E00EF4EE4 /* user.swift in Sources */,
+				94192B822BC82862003F0E27 /* SignInScreenView.swift in Sources */,
+				940897B92BC80E0900E014B4 /* BloomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		940897C12BC80E0C00E014B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		940897C22BC80E0C00E014B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940897C42BC80E0C00E014B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bloom/Preview Content\"";
+				DEVELOPMENT_TEAM = AQKZXA648R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bloom;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Circadian.Bloom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940897C52BC80E0C00E014B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bloom/Preview Content\"";
+				DEVELOPMENT_TEAM = AQKZXA648R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bloom;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Circadian.Bloom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940897B02BC80E0900E014B4 /* Build configuration list for PBXProject "Bloom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940897C12BC80E0C00E014B4 /* Debug */,
+				940897C22BC80E0C00E014B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940897C32BC80E0C00E014B4 /* Build configuration list for PBXNativeTarget "Bloom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940897C42BC80E0C00E014B4 /* Debug */,
+				940897C52BC80E0C00E014B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940897AD2BC80E0900E014B4 /* Project object */;
+}
